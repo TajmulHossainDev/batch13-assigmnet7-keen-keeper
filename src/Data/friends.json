@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Mitchell",
+    "picture": "../../public/sarah.png",
+    "email": "sarah.mitchell@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in freshman year. We used to pull all-nighters studying for exams. She moved to NYC after graduation but we still try to catch up regularly.",
+    "goal": 14,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 2,
+    "name": "James Okafor",
+    "picture": "../../public/james.png",
+    "email": "james.okafor@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "My first manager at the company. Taught me everything about product thinking. Still grab coffee once a month.",
+    "goal": 14,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 3,
+    "name": "Priya Sharma",
+    "picture": "../../public/priya.png",
+    "email": "priya.sharma@yahoo.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["college", "travel buddy"],
+    "bio": "Backpacked across Southeast Asia together in 2022. She has the best travel recommendations and an infectious laugh.",
+    "goal": 10,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 4,
+    "name": "Carlos Mendez",
+    "picture": "../../public/carlos.png",
+    "email": "carlos.mendez@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["gym", "neighbor"],
+    "bio": "We met at the gym two years ago. Morning workout partner and go-to person for home improvement advice.",
+    "goal": 7,
+    "next_due_date": "2025-07-21"
+  },
+  {
+    "id": 5,
+    "name": "Emily Chen",
+    "picture": "../../public/emily.png",
+    "email": "emily.chen@gmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["family friend", "childhood"],
+    "bio": "Grew up on the same street. Our families had dinner together every Sunday. She now runs her own bakery in Portland.",
+    "goal": 21,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 6,
+    "name": "Marcus Thompson",
+    "picture": "../../public/marcus.png",
+    "email": "marcus.t@protonmail.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["work", "book club"],
+    "bio": "We bonded over our shared obsession with sci-fi novels. Monthly book club co-founder. Always has a reading recommendation ready.",
+    "goal": 10,
+    "next_due_date": "2025-07-19"
+  },
+  {
+    "id": 7,
+    "name": "Aisha Rahman",
+    "picture": "../../public/aisha.png",
+    "email": "aisha.rahman@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["college", "roommate"],
+    "bio": "Lived together for three years in university. She knows all my secrets. Now a doctor in Chicago — incredibly proud of her.",
+    "goal": 7,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 8,
+    "name": "Liam O'Brien",
+    "picture": "../../public/liam.png",
+    "email": "liam.obrien@icloud.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["high school", "old friend"],
+    "bio": "Best friends since 8th grade. Drifted apart after college but still share memes and check in during the holidays.",
+    "goal": 21,
+    "next_due_date": "2025-07-05"
+  }
+]
