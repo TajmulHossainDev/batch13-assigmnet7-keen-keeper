@@ -6,8 +6,8 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="shadow-sm">
-      <div className="navbar bg-base-100  max-w-7xl mx-auto">
+    <div className=" bg-slate-100">
+      <div className="navbar max-w-7xl mx-auto shadow-sm">
         <div className="flex-1">
           <NavLink
             to="/"
