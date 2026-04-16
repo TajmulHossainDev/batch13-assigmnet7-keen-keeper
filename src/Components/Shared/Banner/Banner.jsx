@@ -1,11 +1,25 @@
+import { useEffect, useState } from "react";
 import { FaPlus } from "react-icons/fa";
 const Banner = ({ friends }) => {
+  const [interactionsThisMonth, setInteractionsThisMonth] = useState(0);
+  useEffect(() => {
+    const stored = JSON.parse(localStorage.getItem("timeline") || "[]");
+    const now = new Date();
+    const thisMonth = stored.filter((entry) => {
+      const entryDate = new Date(entry.date);
+      return (
+        entryDate.getMonth() === now.getMonth() &&
+        entryDate.getFullYear() === now.getFullYear()
+      );
+    });
+    setInteractionsThisMonth(thisMonth.length);
+  }, []);
+
   const totalFriends = friends.length;
   const onTrack = friends.filter((f) => f.status === "active").length;
   const needAttention = friends.filter(
     (f) => f.status === "overdue" || f.status === "almostdue",
   ).length;
-  const interactionsThisMonth = 0;
 
   return (
     <div className="bg-white border-b border-gray-100">
